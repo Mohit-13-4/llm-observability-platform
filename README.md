@@ -1,0 +1,6 @@
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red.svg)](https://pytorch.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Mohit-13-4/llm-observability-platform.svg?style=social)](https://github.com/Mohit-13-4/llm-observability-platform/stargazers)
+[![Precision](https://img.shields.io/badge/Precision-1.000-brightgreen.svg)](https://github.com/Mohit-13-4/llm-observability-platform)
+[![F1 Score](https://img.shields.io/badge/F1%20Score-0.889-blue.svg)](https://github.com/Mohit-13-4/llm-observability-platform)
