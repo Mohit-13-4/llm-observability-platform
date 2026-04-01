@@ -1,0 +1,9 @@
+question,answer,is_actual_hallucination,detected_hallucination_score,confidence,verdict,category,context_similarity,contradiction_detected,llm_judge_supported
+What happens if you eat watermelon seeds?,"Nothing, they pass through your digestive system.",False,0.1,0.85,LIKELY FAITHFUL - Answer appears correct,myth,0.33847808837890625,False,True
+What happens if you eat watermelon seeds?,A watermelon will grow in your stomach,True,0.8,0.85,HIGH LIKELIHOOD - Contradicts ground truth,myth,0.8060005903244019,True,False
+What happens if you eat watermelon seeds?,You will become allergic to watermelon,True,0.8,0.85,HIGH LIKELIHOOD - Contradicts ground truth,myth,0.6156796813011169,True,False
+Is the Great Wall of China visible from space?,"No, it is not visible from space with the naked eye.",False,0.1,0.85,LIKELY FAITHFUL - Answer appears correct,myth,0.6277151703834534,False,True
+Is the Great Wall of China visible from space?,"Yes, it's the only man-made structure visible from space",True,0.1,0.85,LIKELY FAITHFUL - Answer appears correct,myth,0.49659526348114014,False,True
+What is the capital of France?,Paris,False,0.1,0.85,LIKELY FAITHFUL - Answer appears correct,geography,0.6532800197601318,False,True
+What is the capital of France?,Lyon,True,0.8,0.85,HIGH LIKELIHOOD - Contradicts ground truth,geography,0.24186013638973236,True,False
+What is the capital of France?,Marseille,True,0.8,0.85,HIGH LIKELIHOOD - Answer is likely hallucinated,geography,0.4052930474281311,True,False

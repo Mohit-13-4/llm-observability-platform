@@ -1,0 +1,2 @@
+Model,Hallucination Rate,Avg Score,Avg Latency,Samples
+microsoft/phi-2,33.3%,0.300,211.62s,3

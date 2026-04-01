@@ -1,0 +1,2 @@
+f1_score,precision,recall,specificity,true_positives,false_positives,true_negatives,false_negatives
+0.8888888888888888,1.0,0.8,1.0,4,0,3,1

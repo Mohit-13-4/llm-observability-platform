@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints and large files
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.h5
+
+# Cache files
+llm_cache.pkl
+*.cache
+
+# Results (keep CSV, ignore plots if large)
+results/*.png
+results/*.html
+
+# Data files
+data/*.pt
+data/*.pkl
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

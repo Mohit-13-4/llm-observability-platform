@@ -1,0 +1,3 @@
+model,hallucination_rate,avg_hallucination_score,avg_confidence,avg_latency,samples
+microsoft/phi-1_5,1.0,0.7000000000000001,0.85,3.756008783976237,6
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,1.0,0.7666666666666666,0.85,4.592563072840373,3
