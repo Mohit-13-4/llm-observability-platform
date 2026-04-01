@@ -112,26 +112,31 @@ streamlit run dashboard/app.py
 
 
 ## 📁 Project Structure
-
 llm-observability-platform/
+│
 ├── modules/
-│   └── hallucination.py          # Core detector (ML-based)
+│ └── hallucination.py # Core detector (ML-based)
+│
 ├── llm/
-│   └── judge.py                  # LLM judge with caching
+│ └── judge.py # LLM judge with caching
+│
 ├── embeddings/
-│   └── embedder.py               # Embedding engine
+│ └── embedder.py # Embedding engine
+│
 ├── experiments/
-│   ├── multi_model_benchmark.py  # Model comparison
-│   ├── cross_dataset_eval.py     # Dataset evaluation
-│   ├── error_analysis.py         # Error categorization
-│   └── insight_generator.py      # Data-driven insights
+│ ├── multi_model_benchmark.py # Model comparison
+│ ├── cross_dataset_eval.py # Dataset evaluation
+│ ├── error_analysis.py # Error categorization
+│ └── insight_generator.py # Data-driven insights
+│
 ├── dashboard/
-│   └── app.py                    # Streamlit web interface
-├── results/                      # All evaluation outputs
-├── run_complete_analysis.py      # Main evaluation
-├── run_final_upgrades.py         # Top 0.1% enhancements
-└── requirements.txt              # Dependencies
-
+│ └── app.py # Streamlit web interface
+│
+├── results/ # All evaluation outputs
+│
+├── run_complete_analysis.py # Main evaluation
+├── run_final_upgrades.py # Top 0.1% enhancements
+└── requirements.txt # Dependencies
 
 ## 📈 Benchmark Results
 
