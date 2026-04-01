@@ -33,12 +33,13 @@ The **LLM Observability Platform** is a production-ready hallucination detection
 
 ## 🏗️ Architecture
 
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │                    LLM OBSERVABILITY PLATFORM                   │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
-│  │   INPUT      │───▶│  EMBEDDING  │───▶│  LLM JUDGE   │       │
+│  │   INPUT      │───▶│  EMBEDDING   │───▶│  LLM JUDGE  │       │
 │  │ Question     │    │  Engine      │    │  (phi-2)     │       │
 │  │ Answer       │    │  (20%)       │    │  (80%)       │       │
 │  │ Context      │    └──────────────┘    └──────────────┘       │
@@ -52,7 +53,7 @@ The **LLM Observability Platform** is a production-ready hallucination detection
 │                    └─────────────────────────────────────┘      │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
-
+```
 
 
 
